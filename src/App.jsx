@@ -1,6 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
   return (
-    <div className="text-5xl text-cyan-600">Initialized with tailwind</div>
+    <div className="max-w-6xl mx-auto px-2">
+      <Header></Header>
+    </div>
   );
 }
 
