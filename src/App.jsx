@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Pillars from "./components/Pillars";
+import Vision from "./components/Vision";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="max-w-6xl mx-auto px-2">
         <Header></Header>
         <Pillars></Pillars>
+        <Vision></Vision>
       </div>
     </div>
   );
