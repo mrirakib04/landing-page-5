@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Pillars from "./components/Pillars";
 import Vision from "./components/Vision";
@@ -9,6 +10,7 @@ function App() {
         <Header></Header>
         <Pillars></Pillars>
         <Vision></Vision>
+        <Footer></Footer>
       </div>
     </div>
   );
