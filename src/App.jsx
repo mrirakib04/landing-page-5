@@ -1,7 +1,9 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Newsletter from "./components/Newsletter";
 import Pillars from "./components/Pillars";
 import Vision from "./components/Vision";
+import "./App.css";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <Header></Header>
         <Pillars></Pillars>
         <Vision></Vision>
+        <Newsletter></Newsletter>
         <Footer></Footer>
       </div>
     </div>
