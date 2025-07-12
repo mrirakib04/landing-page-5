@@ -11,13 +11,13 @@ const Footer = () => {
       <div className="w-full border border-gray-300"></div>
       <div className="flex items-center gap-4">
         <button className="transition border-2 border-transparent p-2 rounded-full cursor-pointer hover:border-gray-400 ">
-          <img className="w-6" src={fbImg} alt="" />
+          <img className="w-6" src={fbImg} alt="fbImg" />
         </button>
         <button className="transition border-2 border-transparent p-2 rounded-full cursor-pointer hover:border-gray-400 ">
-          <img className="w-6" src={instaImg} alt="" />
+          <img className="w-6" src={instaImg} alt="instaImg" />
         </button>
         <button className="transition border-2 border-transparent p-2 rounded-full cursor-pointer hover:border-gray-400 ">
-          <img className="w-6" src={xImg} alt="" />
+          <img className="w-6" src={xImg} alt="xImg" />
         </button>
       </div>
     </div>

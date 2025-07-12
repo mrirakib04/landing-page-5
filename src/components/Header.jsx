@@ -23,7 +23,11 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <img className="lg:w-sm md:w-2xs mx-auto" src={bannerImg} alt="" />
+        <img
+          className="lg:w-sm md:w-2xs mx-auto"
+          src={bannerImg}
+          alt="bannerImg"
+        />
       </div>
     </div>
   );

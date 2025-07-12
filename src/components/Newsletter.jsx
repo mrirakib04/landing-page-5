@@ -1,7 +1,7 @@
 const Newsletter = () => {
   return (
     <div className="w-full px-2 sm:py-14 py-10">
-      <div className="w-full bg-green-200 p-4 rounded-xl flex flex-col items-center">
+      <div className="w-full bg-green-200 px-4 py-12 rounded-xl flex flex-col items-center">
         <h3 className="lg:text-4xl md:text-3xl text-2xl font-bold">
           Subscribe Newsletter
         </h3>
